@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Jost:wght@300&family=Lexend:wght@400&family=Open+Sans&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Jost:wght@300&family=Lexend:wght@600&family=Open+Sans&family=Righteous&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    /* font-family: 'Gabarito', sans-serif; */
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Lexend', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Righteous', sans-serif; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.mainHeading {
+    margin: 40px;
+}
+
+.mainHeading h1 {
+    font-size: 10vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+.mainHeading2 {
+    width: fit-content;
+}
+
+.mainHeading2 h1 {
+    margin-left: 135px;
+    line-height: .5;
+    opacity: .6;
+}
+
+.mainHeading2 h5 {
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: right;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+}
+.sub-heading{
+    margin-top: 100px;
+    padding: 30px;
+}
+.sub-heading h5{
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-align: right;
+    line-height: 3vw;
+}
+.hero-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5vw;
+}
+.hero-footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.hero-footer a:hover{
+    text-decoration: underline;
+}
+.hero-footer #iconset{
+    display: flex;
+    gap: .3vw;
+}
+.hero-footer .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background-color: #AAABAB;
+}
+.circle i{
+    color: #000;
+    font-size: 1.5vw;
+}
