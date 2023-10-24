@@ -13,7 +13,7 @@ This repository contains the code for a website that appears to be a clone of Cy
 
 ## Demo
 
-To see this website in action, you can visit the live demo at [Demo Website](#your-demo-website-link).
+To see this website in action, you can visit the live demo at [Demo Website](https://cynthiaugwu-clone.vercel.app/).
 
 ## Technologies Used
 
